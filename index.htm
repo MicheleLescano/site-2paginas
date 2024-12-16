@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Meus filmes </title>
+        <link rel="shortcut icon" href="img/favicon.jpg" type="img/favicon.jpg">
+        <link  href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>  
+  <body>
+    <h2> A sétima arte </h2>
+    <p>
+      A "sétima arte" é um termo utilizado para se referir ao cinema, uma forma de expressão artística que combina diversas disciplinas como a fotografia, o teatro, a literatura, a música e a tecnologia. O cinema é capaz de contar histórias, transmitir emoções e provocar reflexões através da combinação de imagens em movimento, diálogos, música e efeitos visuais.
+
+      O termo "sétima arte" foi popularizado pelo cineasta italiano Ricciotto Canudo em 1911, que viu o cinema como a última das artes clássicas, após a arquitetura, a escultura, a pintura, a música, a dança e a literatura. Desde então, o cinema se desenvolveu enormemente, tornando-se uma das formas de arte mais influentes e populares em todo o mundo.
+      
+      Ao longo de sua história, o cinema passou por diversas fases e movimentos artísticos, refletindo contextos culturais, sociais e políticos. Desde o cinema mudo até as mais avançadas tecnologias digitais de hoje, o cinema continua a evoluir, influenciar e entreter pessoas em todo o mundo.
+      
+      Portanto, a introdução à "sétima arte" é um convite para explorar um universo de imaginação, criatividade e narrativas visuais que capturam a essência da experiência humana de maneiras profundas e variadas.</p>
+    
+    <h4> Cadastro  de usuário </h4>
+    <form action="#" method="get">
+
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome" maxlength="30" minlength="3" required placeholder="Digite seu nome...">
+
+    <br>
+    <br>
+
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" placeholder="Digite seu email@.com...">
+
+    <br>
+    <br>
+
+    <label for="nasc" > Data de nascimento: </label>
+    <input type="date" name="nasc" id="nasc" min="2018-12-31">
+   <!--Quando for limitar idade de usuario  ("max="ano/mes/dia" para limitar menores de 18 anos") e ("min="ano/mes/dia" para crianças)-->
+    <br>
+    <br>
+
+
+    <label for="fone"> Telefone: </label>
+    <input type="tel" name="fone" id="fone" pattern="[1-9]{2}-[0-9]{5}.[0-9]{4}" placeholder="(**) 1234-1234">
+
+    <br>
+    <br>
+
+    <label for="senha"> Senha: </label>
+    <input type="password" name="senha" id="senha"required minlength="8" placeholder="******">
+
+    <br>
+    <br>
+    
+    <input type="checkbox" name="news" id="news" required>
+    <label for="news"> Li e concordo com os termos de uso </label>
+
+    <br>
+    <br>
+
+    <label for="box-escolha"> Aceito receber notificações por email ? </label>
+    <div id="box-escolha">
+        <input type="radio" name="escolha" id="sim" value="Sim" checked >
+        <label for="sim"> Sim </label>
+
+        <input type="radio" name="escolha" id="nao" value="Não">
+        <label for="nao"> Não </label>
+    </div>
+
+    <br>
+    <br>
+
+
+    <label for="genero"> Genêro de filme: </label>
+    <select name="genero" id="genero">
+        <option value=""> Selecione </option>
+        <option value="terror"> 1- Terror </option>
+        <option value="suspence"> 2- suspence </option>
+        <option value="comedia"> 3- Comédia </option>
+        <option value="romance"> 4- Romance </option>
+        <option value="acao"> 5- Ação </option>
+        <option value="drama"> 6- Drama </option>
+        <option value="ficcao"> 7- Ficção </option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="bio"> Deixe seu comentário: </label>
+    <textarea name="bio" id="bio" cols="40" rows="4" placeholder="Escreva sobre você..."></textarea>
+
+    <hr>
+    <div id="btn">
+       <input type="submit" value="Enviar dados">
+       <input type="reset" value="Limpar campos">
+    </div>
+
+
+<a href="pagina2.htm"> 
+    Principais premiações do cinema
+
+</a>
+</form>
+  </body>  
+</html>

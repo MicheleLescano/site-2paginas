@@ -1,0 +1,17 @@
+body {
+    background-image: url('../img/pipoca.jpg');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+h4{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2, p {
+    
+    font-family: 'Cinzel', siref;
+    text-shadow: 2px 4px 8px rgb(7, 7, 7);
+}
