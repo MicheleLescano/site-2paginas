@@ -8,5 +8,6 @@ Onde depois do cadastro o usuário e direcionado a outra página com outro conte
 
 🛠️ Ferramentas Utilizadas
 
-**HTML5**:
-**CSS3**: 
+**HTML5**:Estrutura de formulário.
+
+**CSS3**: estilização interativa e divertida.
